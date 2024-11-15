@@ -93,5 +93,6 @@ document.getElementById('rtn').addEventListener('click', () => {
     stop_run = false;
     document.getElementById('us-scr').textContent = 0;
     document.getElementById('cpt-scr').textContent = 0;
+    document.getElementById('result').style.display = 'none';
     FirstPage();
 });
